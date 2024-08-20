@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Historical Trivia Enthusiast</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .bio, .trivia, .contact {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .trivia-item {
+            margin-bottom: 10px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Historical Trivia Enthusiast</p>
+    </header>
+
+    <div class="container">
+        <section class="bio">
+            <h2>About Me</h2>
+            <p>Welcome to my personal webpage! I am passionate about history and enjoy sharing interesting and lesser-known historical facts. On this page, you will find a collection of trivia that I find fascinating. Feel free to explore and get in touch with any historical questions or suggestions!</p>
+        </section>
+
+        <section class="trivia">
+            <h2>Historical Trivia</h2>
+            <div class="trivia-item">
+                <h3>1. The Great Emu War</h3>
+                <p>In 1932, Australia waged a “war” against emus that were damaging crops. Despite deploying soldiers with machine guns, the emus proved difficult to control, and the operation was deemed a failure.</p>
+            </div>
+            <div class="trivia-item">
+                <h3>2. Cleopatra’s Time Gap</h3>
+                <p>Cleopatra VII of Egypt lived closer in time to the moon landing (1969) than to the construction of the Great Pyramid of Giza. The pyramid was completed around 2560 BC, while Cleopatra reigned in the 1st century BC.</p>
+            </div>
+            <div class="trivia-item">
+                <h3>3. The Oldest Known “Your Mom” Joke</h3>
+                <p>The oldest recorded joke is a Sumerian proverb from 1900 BC, which is essentially a “your mom” joke. Humor seems to be a timeless aspect of human nature!</p>
+            </div>
+            <!-- Add more trivia items as needed -->
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
